@@ -1,0 +1,117 @@
+body {
+  background: #f9f7fe;
+  font-family: "Onest", sans-serif;
+}
+
+footer {
+  color: #bababa;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  padding: 30px 0 0 0;
+}
+
+li {
+  text-align: center;
+  line-height: 4em;
+}
+
+hr {
+  background-color: #bababa;
+  border: none;
+  height: 1px;
+  opacity: 0.5;
+  margin: 2em auto;
+}
+
+.main-container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(65, 50, 100, 0.08);
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 40px;
+}
+
+.search-form-input {
+  background-color: #fcfbfe;
+  border-radius: 5px;
+  border: none;
+  color: #bababa;
+  font-size: 15px;
+  padding: 15px;
+  width: 80%;
+}
+
+.search-form-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #885df1;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px;
+  width: 15%;
+}
+
+.weather-data-city {
+  font-size: 45px;
+}
+
+.weather-data-details {
+  color: #bababa;
+  line-height: 1.5em;
+  padding: 5px 0;
+}
+
+.weather-data-details strong {
+  color: #f65282;
+}
+
+.weather-data-temperature-container {
+  display: flex;
+  padding: 40px 0;
+}
+
+.weather-data-temperature {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-data-emoji {
+  width: 82px;
+  margin: 0 15px;
+}
+
+.weather-data-unit {
+  font-size: 35px;
+  margin: 10px;
+}
+
+.list-days {
+  color: #bababa;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+.week-emoji {
+  font-size: 30px;
+}
+
+.week-temperature {
+  color: #f65282;
+  font-weight: bold;
+}
+
+.week-temperature-low {
+  opacity: 0.4;
+}
