@@ -108,10 +108,9 @@ hr {
 }
 
 .weather-forecast-icon {
-  font-size: 30px;
-  text-align: center;
-  line-height: 20x;
-  margin-bottom: 15px;
+  display: block;
+  width: 75px;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperature {
